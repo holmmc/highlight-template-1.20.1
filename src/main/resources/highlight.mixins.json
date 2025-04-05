@@ -1,0 +1,13 @@
+{
+	"required": true,
+	"package": "com.holmityd.hightlight.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"LivingEntityMixin",
+		"AbstractContainerScreenMixin",
+		"MagnetUpgradeWrapperMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
